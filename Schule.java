@@ -45,5 +45,18 @@ public class Schule
         setLabor(67);
         setAbendschule(true);
     }
+    
+    
+    public void printSchule(){
+    
+      if(abendschule == true){
+          
+          System.out.println("Schule:" + name + "_" + labor + "labor" + "_" + "abendschule");
+          
+        }else {
+            System.out.println("Schule:" + name + "_" + labor + "labor"+ "_" + "Tagesform");
+        }
+        
+    }
 }
 

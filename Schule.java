@@ -18,5 +18,20 @@ public class Schule
     {
         return abendschule;
     }
+    
+    public void setName( String neuName)
+    {
+        name=neuName;
+    }
+    
+    public void setLabor( int neuLabor)
+    {
+        labor=neuLabor;
+    }
+    
+    public void setAbendschule( boolean neuAbendschule)
+    {
+        abendschule=neuAbendschule;
+    }
 }
 

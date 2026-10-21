@@ -33,5 +33,17 @@ public class Schule
     {
         abendschule=neuAbendschule;
     }
+    public Schule(String neuName, int neuLabor, boolean neuAbendschule)
+    {
+        setName(neuName);
+        setLabor(neuLabor);
+        setAbendschule(neuAbendschule);
+    }
+    public Schule()
+    {
+        setName("ahmad");
+        setLabor(67);
+        setAbendschule(true);
+    }
 }
 
